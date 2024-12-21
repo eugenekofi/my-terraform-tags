@@ -6,3 +6,4 @@ resource "aws_instance" "webservers" {
     Name = var.webservers[count.index]
   }
 }
+
